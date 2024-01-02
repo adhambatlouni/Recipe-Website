@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.custom-body1 {
+    height: 100%;
+    background-color: rgba(237, 119, 57, 0.4);
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 380px;
+    padding: 2rem 1rem;
+    margin: 80px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper-preferences {
+    width: 400px;
+    height: 400px;
+    padding: 3rem;
+    margin: 80px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}
+
+.preferences {
+    padding-bottom: 2.2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+}
+
+input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+    font-weight: 600;
+}
+
+select {
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+    font-weight: 600;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    border: 3px solid #ed7739;
+    background: #ed7739;
+}
+
+.btn:hover {
+    color: #ed7739;
+    background-color: #fff;
+}
+
+.member {
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    color: #636363;
+    font-weight: 600;
+}
+
+.member a {
+    color: #ed7739;
+    text-decoration: none;
+}
+
+.recover {
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+    font-weight: 600;
+}
+
+.recover a {
+    text-decoration: none;
+    color: #ed7739;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+.input-taken {
+    animation: shake 1s;
+    animation-iteration-count: 1;
+}
